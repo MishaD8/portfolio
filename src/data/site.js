@@ -3,7 +3,7 @@ export const site = {
   email: "hello@mykhaylo-dyachenko.dev",
 
   // Shown under the hero headline.
-  stack: ["AWS", "Kubernetes", "Terraform", "Python", "Go"],
+  stack: ["Linux", "AWS", "Kubernetes", "Terraform", "Python", "Go"],
 
   // Keep these honest — update as you ship. "projects shipped" should match
   // the number of live cards in projects.js.
