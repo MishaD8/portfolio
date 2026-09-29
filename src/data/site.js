@@ -9,7 +9,7 @@ export const site = {
   // the number of live cards in projects.js.
   stats: [
     { value: "1", label: "Cloud projects shipped" },
-    { value: "9", label: "More in the pipeline" },
+    { value: "8", label: "More in the pipeline" },
   ],
 
   // Replace the two placeholders with your real profile URLs.
