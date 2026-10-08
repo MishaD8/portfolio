@@ -1,13 +1,20 @@
+import { useState } from "react";
 import { articles } from "../data/articles";
 
+const INITIAL_COUNT = 6;
+
 export default function Writing() {
+  const [showAll, setShowAll] = useState(false);
+  const visible = showAll ? articles : articles.slice(0, INITIAL_COUNT);
+  const hiddenCount = articles.length - INITIAL_COUNT;
+
   return (
     <section id="writing" className="mx-auto max-w-4xl border-t border-line px-6 py-16">
       <h2 className="font-display text-2xl font-semibold tracking-tight text-fg">
         Writing
       </h2>
       <ul className="mt-8 divide-y divide-line">
-        {articles.map((a) => (
+        {visible.map((a) => (
           <li key={a.title}>
             <a
               href={a.href}
@@ -23,6 +30,16 @@ export default function Writing() {
           </li>
         ))}
       </ul>
+
+      {hiddenCount > 0 && (
+        <button
+          type="button"
+          onClick={() => setShowAll(!showAll)}
+          className="mt-6 text-sm text-muted underline-offset-4 transition-colors hover:text-fg hover:underline"
+        >
+          {showAll ? "Show less" : `Show all ${articles.length} articles`}
+        </button>
+      )}
     </section>
   );
 }
