@@ -3,7 +3,7 @@ export const articles = [
   {
     title:
       "Part 5: Killing the Keys — Securing My Pipeline with OIDC (and the Hidden Bug That Took Four Failed Runs)",
-    href: https://medium.com/@mihaeldyachenko/part-5-killing-the-keys-securing-my-pipeline-with-oidc-and-the-hidden-bug-that-took-four-failed-5a28899ee0de,
+    href: "https://medium.com/@mihaeldyachenko/part-5-killing-the-keys-securing-my-pipeline-with-oidc-and-the-hidden-bug-that-took-four-failed-5a28899ee0de",
     date: "2026-10-10",
   },
   {
