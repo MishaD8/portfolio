@@ -2,6 +2,12 @@
 export const articles = [
   {
     title:
+      "Part 5: Killing the Keys — Securing My Pipeline with OIDC (and the Hidden Bug That Took Four Failed Runs)",
+    href: https://medium.com/@mihaeldyachenko/part-5-killing-the-keys-securing-my-pipeline-with-oidc-and-the-hidden-bug-that-took-four-failed-5a28899ee0de,
+    date: "2026-10-10",
+  },
+  {
+    title:
       "Part 4: Hardening My Portfolio with AWS WAF — What It Protects, What It Costs, and Why I Tore It Down",
     href: "https://medium.com/@mihaeldyachenko/part-4-hardening-my-portfolio-with-aws-waf-what-it-protects-what-it-costs-and-why-i-tore-it-1e7530b8ac37",
     date: "2026-09-27",
@@ -118,7 +124,7 @@ export const articles = [
     title:
       "Week 5 - Part 1: AWS VPC Architecture",
     href: "https://medium.com/@mihaeldyachenko/week-5-part-1-aws-vpc-architecture-c710532811fd",
-    date: "2026-01-01",
+    date: "2026-01-02",
   },
 ];
 

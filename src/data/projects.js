@@ -12,6 +12,7 @@ export const projects = [
       { label: "Write-up · Part 2", href: "https://medium.com/@mihaeldyachenko/part-2-automating-my-portfolio-deployment-with-github-actions-including-the-bug-that-almost-c05011ccec7a" },
       { label: "Write-up · Part 3", href: "https://medium.com/@mihaeldyachenko/part-3-building-and-launching-my-cloud-portfolio-with-react-124975d08fbe" },
       { label: "Write-up · Part 4", href: "https://medium.com/@mihaeldyachenko/part-4-hardening-my-portfolio-with-aws-waf-what-it-protects-what-it-costs-and-why-i-tore-it-1e7530b8ac37" },
+      { label: "Write-up · Part 5", href: "https://medium.com/@mihaeldyachenko/part-5-killing-the-keys-securing-my-pipeline-with-oidc-and-the-hidden-bug-that-took-four-failed-5a28899ee0de " },
     ],
   },
 ];
